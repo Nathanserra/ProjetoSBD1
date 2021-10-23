@@ -2,7 +2,7 @@
 --
 --         SCRIPT DE CRIACAO (DDL)
 --
--- Data Criacao ...........: 21/03/2018
+-- Data Criacao ...........: 23/10/2021
 -- Autor(es) ..............: Samuel Borges e Nathan Serra 
 -- Banco de Dados .........: MySQL 8.0
 -- Base de Dados (nome) ...: TF3
