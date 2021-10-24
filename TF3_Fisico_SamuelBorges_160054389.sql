@@ -5,7 +5,7 @@
 -- Data Criacao ...........: 23/10/2021
 -- Autor(es) ..............: Samuel Borges e Nathan Serra 
 -- Banco de Dados .........: MySQL 8.0
--- Base de Dados (nome) ...: TF3
+-- Base de Dados (nome) ...: SamuelBorges
 --
 --
 -- PROJETO => 01 Base de Dados
@@ -14,9 +14,9 @@
 -- ---------------------------------------------------------
 
 -- BASE DE DADOS
-CREATE DATABASE IF NOT EXISTS TF3;
+CREATE DATABASE IF NOT EXISTS SamuelBorges;
 
-use TF3;
+use SamuelBorges;
 
 -- TABELAS
 
@@ -41,6 +41,7 @@ CREATE TABLE AGRICULTOR (
 CREATE TABLE telefone (
     telefone BIGINT(11) NOT NULL,
     cpf BIGINT(11) NOT NULL,
+    CONSTRAINT telefone_UK UNIQUE (telefone),
     CONSTRAINT telefone_AGRICULTOR_FK FOREIGN KEY (cpf) REFERENCES AGRICULTOR (cpf) ON DELETE CASCADE ON UPDATE CASCADE
 )engine=InnoDB;
 

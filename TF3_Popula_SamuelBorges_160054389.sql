@@ -5,7 +5,7 @@
 -- Data Criacao ...........: 23/10/2021
 -- Autor(es) ..............: Samuel Borges e Nathan Serra 
 -- Banco de Dados .........: MySQL 8.0
--- Base de Dados (nome) ...: TF3
+-- Base de Dados (nome) ...: SamuelBorges
 --
 --
 -- PROJETO => 01 Base de Dados
@@ -14,7 +14,7 @@
 -- ---------------------------------------------------------
 
 -- BASE DE DADOS
-use TF3;
+use SamuelBorges;
 
 -- TABELAS
 INSERT INTO PROPRIEDADE (setor, rua, numero, nome) VALUES
