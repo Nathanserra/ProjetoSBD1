@@ -7,9 +7,12 @@
 -- Banco de Dados .........: MySQL 8.0
 -- Base de Dados (nome) ...: SamuelBorges
 --
+-- Ultimas Alteracoes
+--   27/10/2021 => Adiciona remoção de Usuários e Perfis
 --
 -- PROJETO => 01 Base de Dados
 --         => 03 Usuários
+--         => 03 Perfis
 --         => 11 Tabelas  
 --
 -- ---------------------------------------------------------
@@ -40,3 +43,12 @@ DROP TABLE AGRICULTOR;
 
 DROP TABLE PROPRIEDADE;
 
+-- USUARIOS
+
+DROP USER 'admin','kakashi_hatake','jorge_barroso';
+
+-- PERFIS
+
+DROP ROLE  'administrador', 'tecnico', 'agricultor';
+
+FLUSH PRIVILEGES;
