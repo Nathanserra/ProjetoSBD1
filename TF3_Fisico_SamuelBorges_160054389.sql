@@ -11,6 +11,7 @@
 --   26/10/2021 => Adiciona atributo 'dosagem' à entidade APLICACAO
 --
 -- PROJETO => 01 Base de Dados
+--         => 03 Usuários
 --         => 11 Tabelas
 --
 -- ---------------------------------------------------------
