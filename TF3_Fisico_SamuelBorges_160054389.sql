@@ -7,6 +7,8 @@
 -- Banco de Dados .........: MySQL 8.0
 -- Base de Dados (nome) ...: SamuelBorges
 --
+-- Ultimas Alteracoes
+--   26/10/2021 => Adiciona atributo 'dosagem' à entidade APLICACAO
 --
 -- PROJETO => 01 Base de Dados
 --         => 11 Tabelas
