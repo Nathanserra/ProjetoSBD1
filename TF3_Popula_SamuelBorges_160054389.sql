@@ -87,10 +87,10 @@ INSERT INTO AGROTOXICO (nome, periodoCarencia, idTipoAgrotoxico) VALUES
     ('Upward Concentrado', 14, 4),
     ('Racumin Pó', 8, 5);
 
-INSERT INTO APLICACAO (dataAplicacao, foto, idSafra, idAgrotoxico) VALUES
-	('2021-07-10', x'0101', 1, 1),
-    ('2020-03-15', x'1101', 2, 2),
-    ('2021-05-22', x'0007', 3, 3),
-    ('2021-08-24', x'0808', 4, 4),
-    ('2021-02-08', x'0220', 5, 5);
+INSERT INTO APLICACAO (dataAplicacao, foto, dosagem, idSafra, idAgrotoxico) VALUES
+	('2021-07-10', x'0101', null, 1, 1),
+    ('2020-03-15', x'1101', '0.825', 2, 2),
+    ('2021-05-22', x'0007', null, 3, 3),
+    ('2021-08-24', x'0808', '20.125', 4, 4),
+    ('2021-02-08', x'0220', '800.025', 5, 5);
 

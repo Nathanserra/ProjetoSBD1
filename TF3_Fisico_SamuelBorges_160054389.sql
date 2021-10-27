@@ -102,6 +102,7 @@ CREATE TABLE APLICACAO (
 	idAplicacao INT AUTO_INCREMENT NOT NULL,
     dataAplicacao DATE NOT NULL,
     foto BLOB NOT NULL,
+    dosagem DECIMAL(7,3) NULL,
     idSafra INT NOT NULL,
     idAgrotoxico INT NULL,
     CONSTRAINT APLICACAO_PK PRIMARY KEY (idAplicacao),
